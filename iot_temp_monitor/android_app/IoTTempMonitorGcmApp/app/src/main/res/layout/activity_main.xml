@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_large"
+        android:text="Welcome to Temperature Reader!"
+        android:textSize="20sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#420911" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are now registered with us! You will receive instant temperature readings!"
+        android:textSize="10sp"
+        android:layout_marginTop="40sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

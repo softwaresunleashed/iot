@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#ffffff">
+
+    <ImageView
+        android:src="@drawable/gcm_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="20dip"/>
+
+    <Button android:id="@+id/btnGCMRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Your App with Google GCM"
+        android:layout_margin="10dip"/>
+
+
+    <Button android:id="@+id/btnAppShare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send GCM-RegId with  Server"
+        android:layout_margin="10dip"/>
+
+</LinearLayout>
