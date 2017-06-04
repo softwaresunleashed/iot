@@ -26,7 +26,7 @@ public class DisplayText extends Activity {
     public void readRecords(View view){
 
         WebView webview = (WebView) findViewById(R.id.webview);
-        webview.loadUrl("http://192.168.0.117/temp-readings.php");
+        webview.loadUrl("http://www.softwaresunleashed.com/iot/temperature_records.php");
        /*Cursor r= db.getData(1);
         TextView display=(TextView)findViewById(R.id.showData);
         String show= r.getString(r.getColumnIndex(DatabaseHandler.TEMP_READINGS_VALUE));
